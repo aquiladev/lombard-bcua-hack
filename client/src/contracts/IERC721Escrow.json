@@ -1,0 +1,104 @@
+{
+  "contractName": "IERC721Escrow",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.2+commit.1df8f40c\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/C/Users/SergiiBomko/Documents/GitHub/lombard-bcua-hack/contracts/IERC721Escrow.sol\":\"IERC721Escrow\"},\"evmVersion\":\"byzantium\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/SergiiBomko/Documents/GitHub/lombard-bcua-hack/contracts/IERC721Escrow.sol\":{\"keccak256\":\"0xbf90c392737fd9919223141ad16aaa3c0a3965ed48c93b17a1b22e49915dee0e\",\"urls\":[\"bzzr://d5497dbb318412f0f2f93a741d05250201f0460fc5645dd8281badbb45f4b1c4\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3fe6080604052600080fdfea165627a7a72305820ff030737c9631a9b9d42bfe660b3d974162d0e3faf3cfc975f55bee24aeacf500029",
+  "deployedBytecode": "0x6080604052600080fdfea165627a7a72305820ff030737c9631a9b9d42bfe660b3d974162d0e3faf3cfc975f55bee24aeacf500029",
+  "sourceMap": "27:27:10:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;27:27:10;;;;;;;",
+  "deployedSourceMap": "27:27:10:-;;;;;",
+  "source": "pragma solidity ^0.5.2;\r\n\r\ncontract IERC721Escrow {\r\n}",
+  "sourcePath": "C:\\Users\\SergiiBomko\\Documents\\GitHub\\lombard-bcua-hack\\contracts\\IERC721Escrow.sol",
+  "ast": {
+    "absolutePath": "/C/Users/SergiiBomko/Documents/GitHub/lombard-bcua-hack/contracts/IERC721Escrow.sol",
+    "exportedSymbols": {
+      "IERC721Escrow": [
+        1752
+      ]
+    },
+    "id": 1753,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1751,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".2"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:10"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 1752,
+        "linearizedBaseContracts": [
+          1752
+        ],
+        "name": "IERC721Escrow",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 1753,
+        "src": "27:27:10"
+      }
+    ],
+    "src": "0:54:10"
+  },
+  "legacyAST": {
+    "absolutePath": "/C/Users/SergiiBomko/Documents/GitHub/lombard-bcua-hack/contracts/IERC721Escrow.sol",
+    "exportedSymbols": {
+      "IERC721Escrow": [
+        1752
+      ]
+    },
+    "id": 1753,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1751,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".2"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:10"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 1752,
+        "linearizedBaseContracts": [
+          1752
+        ],
+        "name": "IERC721Escrow",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 1753,
+        "src": "27:27:10"
+      }
+    ],
+    "src": "0:54:10"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.2+commit.1df8f40c.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.0.11",
+  "updatedAt": "2019-09-22T09:06:40.621Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}

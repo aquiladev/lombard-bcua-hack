@@ -1,0 +1,414 @@
+{
+  "contractName": "ERC165Mock",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "interfaceId",
+          "type": "bytes4"
+        }
+      ],
+      "name": "supportsInterface",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.2+commit.1df8f40c\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[{\"name\":\"interfaceId\",\"type\":\"bytes4\"}],\"name\":\"supportsInterface\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/C/Users/SergiiBomko/Documents/GitHub/lombard-bcua-hack/contracts/mocks/ERC165Mock.sol\":\"ERC165Mock\"},\"evmVersion\":\"byzantium\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/SergiiBomko/Documents/GitHub/lombard-bcua-hack/client/node_modules/openzeppelin-solidity/contracts/introspection/IERC165.sol\":{\"keccak256\":\"0xc48ee580d20820cc0ef122b2acc9bf8836731dd8b9671cc03d21a12e3ab14976\",\"urls\":[\"bzzr://744cf3b8280d4a050ad0771e2ed0d7d41bbddfa40a541933d46bb31007a2e4a9\"]},\"/C/Users/SergiiBomko/Documents/GitHub/lombard-bcua-hack/contracts/mocks/ERC165Mock.sol\":{\"keccak256\":\"0x7a10b34c35063f21500a56b4f95ca0b7b92fdbb29f4e66aa7da23e523359d077\",\"urls\":[\"bzzr://dc1f714044a2f9ca9d496f4628faa67f3f63b609f1c4e647a3f084aa2c61ff0f\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b5060e28061001f6000396000f3fe6080604052348015600f57600080fd5b50600436106045576000357c01000000000000000000000000000000000000000000000000000000009004806301ffc9a714604a575b600080fd5b609260048036036020811015605e57600080fd5b8101908080357bffffffffffffffffffffffffffffffffffffffffffffffffffffffff1916906020019092919050505060ac565b604051808215151515815260200191505060405180910390f35b600080905091905056fea165627a7a72305820a6689595b51b781c1d18e2cdaafed09dede6f142ca180a6ccf8ab350d42341a40029",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b50600436106045576000357c01000000000000000000000000000000000000000000000000000000009004806301ffc9a714604a575b600080fd5b609260048036036020811015605e57600080fd5b8101908080357bffffffffffffffffffffffffffffffffffffffffffffffffffffffff1916906020019092919050505060ac565b604051808215151515815260200191505060405180910390f35b600080905091905056fea165627a7a72305820a6689595b51b781c1d18e2cdaafed09dede6f142ca180a6ccf8ab350d42341a40029",
+  "sourceMap": "126:149:13:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;126:149:13;;;;;;;",
+  "deployedSourceMap": "126:149:13:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;126:149:13;;;;;;;;;;;;;;;;;;;;165:107;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;165:107:13;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;235:4;259:5;252:12;;165:107;;;:::o",
+  "source": "pragma solidity ^0.5.2;\r\n\r\nimport \"./../../client/node_modules/openzeppelin-solidity/contracts/introspection/IERC165.sol\";\r\n\r\ncontract ERC165Mock is IERC165  {\r\n    function supportsInterface(bytes4 interfaceId) external view returns (bool) {\r\n        return false;\r\n    }\r\n}\r\n",
+  "sourcePath": "C:/Users/SergiiBomko/Documents/GitHub/lombard-bcua-hack/contracts/mocks/ERC165Mock.sol",
+  "ast": {
+    "absolutePath": "/C/Users/SergiiBomko/Documents/GitHub/lombard-bcua-hack/contracts/mocks/ERC165Mock.sol",
+    "exportedSymbols": {
+      "ERC165Mock": [
+        1848
+      ]
+    },
+    "id": 1849,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1834,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".2"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:13"
+      },
+      {
+        "absolutePath": "/C/Users/SergiiBomko/Documents/GitHub/lombard-bcua-hack/client/node_modules/openzeppelin-solidity/contracts/introspection/IERC165.sol",
+        "file": "./../../client/node_modules/openzeppelin-solidity/contracts/introspection/IERC165.sol",
+        "id": 1835,
+        "nodeType": "ImportDirective",
+        "scope": 1849,
+        "sourceUnit": 110,
+        "src": "27:95:13",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 1836,
+              "name": "IERC165",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 109,
+              "src": "149:7:13",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_IERC165_$109",
+                "typeString": "contract IERC165"
+              }
+            },
+            "id": 1837,
+            "nodeType": "InheritanceSpecifier",
+            "src": "149:7:13"
+          }
+        ],
+        "contractDependencies": [
+          109
+        ],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 1848,
+        "linearizedBaseContracts": [
+          1848,
+          109
+        ],
+        "name": "ERC165Mock",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 1846,
+              "nodeType": "Block",
+              "src": "241:31:13",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "hexValue": "66616c7365",
+                    "id": 1844,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": true,
+                    "kind": "bool",
+                    "lValueRequested": false,
+                    "nodeType": "Literal",
+                    "src": "259:5:13",
+                    "subdenomination": null,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    },
+                    "value": "false"
+                  },
+                  "functionReturnParameters": 1843,
+                  "id": 1845,
+                  "nodeType": "Return",
+                  "src": "252:12:13"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 1847,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "supportsInterface",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 1840,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1839,
+                  "name": "interfaceId",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1847,
+                  "src": "192:18:13",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes4",
+                    "typeString": "bytes4"
+                  },
+                  "typeName": {
+                    "id": 1838,
+                    "name": "bytes4",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "192:6:13",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes4",
+                      "typeString": "bytes4"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "191:20:13"
+            },
+            "returnParameters": {
+              "id": 1843,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1842,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1847,
+                  "src": "235:4:13",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 1841,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "235:4:13",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "234:6:13"
+            },
+            "scope": 1848,
+            "src": "165:107:13",
+            "stateMutability": "view",
+            "superFunction": 108,
+            "visibility": "external"
+          }
+        ],
+        "scope": 1849,
+        "src": "126:149:13"
+      }
+    ],
+    "src": "0:277:13"
+  },
+  "legacyAST": {
+    "absolutePath": "/C/Users/SergiiBomko/Documents/GitHub/lombard-bcua-hack/contracts/mocks/ERC165Mock.sol",
+    "exportedSymbols": {
+      "ERC165Mock": [
+        1848
+      ]
+    },
+    "id": 1849,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1834,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".2"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:13"
+      },
+      {
+        "absolutePath": "/C/Users/SergiiBomko/Documents/GitHub/lombard-bcua-hack/client/node_modules/openzeppelin-solidity/contracts/introspection/IERC165.sol",
+        "file": "./../../client/node_modules/openzeppelin-solidity/contracts/introspection/IERC165.sol",
+        "id": 1835,
+        "nodeType": "ImportDirective",
+        "scope": 1849,
+        "sourceUnit": 110,
+        "src": "27:95:13",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 1836,
+              "name": "IERC165",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 109,
+              "src": "149:7:13",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_IERC165_$109",
+                "typeString": "contract IERC165"
+              }
+            },
+            "id": 1837,
+            "nodeType": "InheritanceSpecifier",
+            "src": "149:7:13"
+          }
+        ],
+        "contractDependencies": [
+          109
+        ],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 1848,
+        "linearizedBaseContracts": [
+          1848,
+          109
+        ],
+        "name": "ERC165Mock",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 1846,
+              "nodeType": "Block",
+              "src": "241:31:13",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "hexValue": "66616c7365",
+                    "id": 1844,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": true,
+                    "kind": "bool",
+                    "lValueRequested": false,
+                    "nodeType": "Literal",
+                    "src": "259:5:13",
+                    "subdenomination": null,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    },
+                    "value": "false"
+                  },
+                  "functionReturnParameters": 1843,
+                  "id": 1845,
+                  "nodeType": "Return",
+                  "src": "252:12:13"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 1847,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "supportsInterface",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 1840,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1839,
+                  "name": "interfaceId",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1847,
+                  "src": "192:18:13",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes4",
+                    "typeString": "bytes4"
+                  },
+                  "typeName": {
+                    "id": 1838,
+                    "name": "bytes4",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "192:6:13",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes4",
+                      "typeString": "bytes4"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "191:20:13"
+            },
+            "returnParameters": {
+              "id": 1843,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1842,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1847,
+                  "src": "235:4:13",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 1841,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "235:4:13",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "234:6:13"
+            },
+            "scope": 1848,
+            "src": "165:107:13",
+            "stateMutability": "view",
+            "superFunction": 108,
+            "visibility": "external"
+          }
+        ],
+        "scope": 1849,
+        "src": "126:149:13"
+      }
+    ],
+    "src": "0:277:13"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.2+commit.1df8f40c.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.0.11",
+  "updatedAt": "2019-09-22T09:04:29.166Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
