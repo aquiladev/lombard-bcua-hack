@@ -9,7 +9,7 @@
     "axios": "0.19.0",
     "chai": "4.2.0",
     "dotenv": "8.1.0",
-    "moment": "2.24.0",
+    "moment": "2.29.2",
     "openzeppelin-solidity": "2.2.0",
     "openzeppelin-test-helpers": "0.4.3",
     "react": "16.9.0",
